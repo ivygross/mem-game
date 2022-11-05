@@ -1,0 +1,49 @@
+/* you can add to or change this. */
+body {
+  background-color: rgb(89, 89, 230);
+  text-align: center;
+}
+#game {
+  /* border: 1px solid black;
+  margin: 20px;
+  display: inline-block;
+  background-color: white; */
+  /* position: absolute;
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+  /* position: flex; */
+  /* margin-top: 100px; */
+  margin: auto;
+  background-color: white;
+  height: 50%;
+  width: 65%;
+  /* left: 50%; */
+  /* top: 50%;  */
+  position: relative;
+
+}
+
+#grid {
+  /* border: 1px;
+  width: 100%;
+  height: 100%;
+  margin: 20px;
+  display: inline-block; */
+  /* position: absolute; */
+  background-color: white;
+  position: absolute;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+.game-card {
+  background-color: red;
+  /* position: absolute; */
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 6px;
+}
